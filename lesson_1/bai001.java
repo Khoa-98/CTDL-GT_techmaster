@@ -22,9 +22,10 @@ public class bai001 {
     }
 
     public static void main(String[] args) {
-    bai001 test = new bai001();
-    int[] nums1 = { 1, 2, 3, 4 };
-    System.out.println(Arrays.toString(test.twoSum(nums1, 5)));
+        bai001 test = new bai001();
+        int[] nums1 = { 1, 2, 3, 4 };
+        System.out.println(Arrays.toString(test.twoSum(nums1, 5)));
+    }
 }
-}
+
 

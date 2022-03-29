@@ -2,11 +2,11 @@
  * bai136_singleNumber
  */
 public class bai136_singleNumber {
-
+    
     public int singleNumber(int[] a) {
-        int result = a[0];
+        int result = 0;
         for (int i = 0; i < a.length; i++) {
-            result ^= a[i];
+            result = result ^ a[i];
         }
         return result;
     }
