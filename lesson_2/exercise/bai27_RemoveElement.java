@@ -1,3 +1,5 @@
+package exercise;
+
 public class bai27_RemoveElement {
     public static int removeElement(int[] a, int val) {
         int n = a.length;

@@ -1,3 +1,5 @@
+package exercise;
+
 public class bai88_MergeSortedArray {
 
     public static void merge(int[] n1, int m, int[] n2, int n) {

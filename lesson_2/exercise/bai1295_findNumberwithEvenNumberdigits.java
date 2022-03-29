@@ -1,3 +1,5 @@
+package exercise;
+
 public class bai1295_findNumberwithEvenNumberdigits {
     public static int findNumbers(int[] nums) {
         int count = 0;
