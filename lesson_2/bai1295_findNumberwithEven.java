@@ -29,6 +29,7 @@ public class bai1295_findNumberwithEven {
         }
         return count;
     }
+    
     public static void main(String[] args) {
         int[] nums = { 1, 22, 333, 4444};
 
