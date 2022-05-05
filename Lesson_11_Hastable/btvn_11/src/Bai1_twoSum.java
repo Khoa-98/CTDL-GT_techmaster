@@ -4,7 +4,6 @@ import java.util.Set;
 public record Bai1_twoSum() {
     public int[] twoSum(int[] nums, int target) {
         HashSet<Integer> setArr = new HashSet<Integer>();
-
         int i, j;
         for (i = 0; i < nums.length; i++) {
             if (setArr.contains(target - nums[i])) {
